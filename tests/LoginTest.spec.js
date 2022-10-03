@@ -1,11 +1,10 @@
 const { test, expect } = require('@playwright/test');
-const {LoginPage}=require('LoginPage.spec')
+const {LoginPage}=require('../Pages/LoginPage.spec.js')
 test('User logs in to Homepage', async ({ page }) => {
-    let baseUrl='http://hrm.syntaxtechs.net/humanresources/symfony/web/index.php/dashboard';
+   
+     const loginPage=new LoginPage(page);
 
-    await page.goto(baseUrl);
-    page.pause()
-
-    await expect(page.locator("id=welcome")).toHaveText("Welcome Admin");
+      loginPage.login("pfsit","pfs1ttest");
+     
 
 });
