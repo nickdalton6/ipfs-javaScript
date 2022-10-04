@@ -1,0 +1,30 @@
+PFA Fee Verbiage:
+
+Generic
+
+PFA Fee Disclosure Non CA:
+
+Back of PFA
+
+PFA Fee Disclosure CA:
+
+Accept Rep
+
+
+
+Welcome eMail to Insureds for Accounts that have been processed
+A welcome email is sent to the Insured after their loan has been successfully processed. The email will contain additional details such as a down payment confirmation and their unique web access code to register on ipfs.com.
+Request eMail to Agents to "Please Sign" premium finance agreement
+This email will be sent to you if you elect to sign the premium finance agreement after the Insured.
+Confirmation eMail of Insured signature to Agents
+We will send you an email confirmation when a PFA is signed by the Insured (after you) as well as a down payment confirmation, if applicable.
+Use the Same Settings for Integrations
+If you have different preferences for Integrations, uncheck this box and you will be able to select which emails to receive.
+
+Welcome eMail to Insureds for Accounts that have been processed
+A welcome email is sent to the Insured after their loan has been successfully processed. The email will contain additional details such as a down payment confirmation and their unique web access code to register on ipfs.com.
+Request eMail to Agents to "Please Sign" premium finance agreement
+This email will be sent to you if you elect to sign the premium finance agreement after the Insured.
+Confirmation eMail of Insured signature to Agents
+We will send you an email confirmation when a PFA is signed by the Insured (after you) as well as a down payment confirmation, if applicable
+
