@@ -35,7 +35,23 @@ class Admin{
         this.IntegTab=page.locator("a[title='Integration']");
         this.InteMainTit=page.locator("input#hdnSelectedTabIndex");
         this.CovTab=page.locator("#CoverageTabPanel");
-        this.CompTab=page.locator("input#hdnSelectedTabIndex");
+        this.namRadBtn=page.locator("#filterOnNameCoverage");
+        this.namRadBtn=page.locator("#filterOnNameCoverage");
+        this.ipfsValRadBtn=page.locator("#filterOnValueCoverage");
+        this.strtWitRadBtn=page.locator("#startsWithRadioCoverage");
+        this.CntnsRadBtn=page.locator("#containsRadioCoverage");
+        this.entTxtBox=page.locator("#stringTextCoverage");//This locator send text for contains radio btn to search
+        this.xSearchIcon=page.locator("button[onclick=\"stringTextCoverage.value = ''\"]"); //This locator clean the search box enter in line 43 (B)
+        this.srchBtn=page.locator("#searchButtonCoverage");
+        this.srhResTbl=page.locator(".bootstrap-table");
+        this.srhResTblChBox=page.locator("input[name='btSelectAll']");
+        this.srhResTblName=page.locator("div[class='th-inner sortable both']").nth(0);
+        this.srhResTblIpfsVal=page.locator("div[class='th-inner sortable both']").nth(1);
+        this.srhResTblCovTyp=page.locator("div[class='th-inner sortable both']").nth(2);
+        //Edit Cover mapping edit btn waiting to be located.
+        //Changing pages for table awaiting for a locator selections
+        this.addBtn=page.locator("#CoverageAddButton");
+        this.DelBtn=page.locator("#CoverageDeleteButton");
 
 
 
