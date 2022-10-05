@@ -141,6 +141,7 @@ class Admin{
         this.helForUsPpUpAdUs=page.locator("helForUsPopTxt");
         this.helForUsPpUpEdUs=page.locator("text=Edit a User");
         this.helForUsPpUpRsPsWRE=page.locator("text=Reset Password with Registration Email");
+        this.ClzhelForUsPpUp=page.locator("div[title='Stop Walk-thru']");
         this.addBtnUsmTab=page.locator("button[id='UserAddButton']");
         this.delBtnUsmTab=page.locator("button[id='UserDeleteButton']");
         this.AgnCoDiscUsmTab=page.locator("#AgentCompensationDisclosureLink");
