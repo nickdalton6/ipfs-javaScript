@@ -1,3 +1,6 @@
+
+
+
 PFA Fee Verbiage:
 
 Generic
@@ -28,3 +31,65 @@ This email will be sent to you if you elect to sign the premium finance agreemen
 Confirmation eMail of Insured signature to Agents
 We will send you an email confirmation when a PFA is signed by the Insured (after you) as well as a down payment confirmation, if applicable
 
+=================
+
+Home > Admin > Insured Branding
+Insured Branding
+Upload
+No file chosen
+Allowed file types: jpg/jpeg, png or gif
+Max file size: 512 KB
+Preview
+Insured Branding Image
+Your Insurance Agency/Broker
+DEMO PRODUCER #P01148
+
+1234 MAIN STREET
+ANY CITY, NJ 07927-1010
+Tel: (555) 555-5511
+Sample of what insureds see.
+Agent Compensation Disclosure | Website Privacy Policy/Terms and Conditions | IPFS Fair Lending, Information Security, and Privacy Compliance Acknowledgement
+===========================================
+Home > Admin > Integration
+Integration Maintenance
+Coverage
+Company
+General Agent
+Broker
+Insured
+Search Criteria
+Filter records on:  Name  IPFS Value
+ Starts with  Contains  
+ 
+Total records: 87Items per page:  
+25
+‹1234›
+
+Name
+IPFS Value
+Coverage Type
+	1234	OTHER	Personal	
+	1234	AIRCRAFT	Commercial	
+	300.00	AIRCRAFT	Commercial	
+	561	AALI	Commercial	
+	82	FEE	Commercial	
+	Artisan	ARTISAN	Commercial	
+	AsUTO	OTHER	Commercial	
+	AUTO	OTHER	Commercial	
+	autoliab	AUTO LIB	Commercial	
+	Automobile Physical Damage	OTHER	Commercial	
+	AUTOP	OTHER	Commercial	
+	BAUT	AUTO	Personal	
+	BAUT	AUTO	Commercial	
+	BAUTBautit	OTHER	Commercial	
+	BAUTIT2	AALI	Commercial	
+	BAUTyup	OTHER	Commercial	
+	BOAT	OTHER	Personal	
+	BOAT	BOAT	Commercial	
+	BOATvccvvc	ADDL INSD	Commercial	
+	BOP	OTHER	Commercial	
+	Business Auto	OTHER	Commercial	
+	BusinessAutomobile	OTHER	Commercial	
+	CDOL	D&O	Commercial	
+	CGL	OTHER	Commercial	
+	CGLI	GL	Commercia

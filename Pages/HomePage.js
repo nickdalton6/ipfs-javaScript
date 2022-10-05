@@ -20,7 +20,7 @@ class HomePage{
         this.benForInsurComp=page.locator("div[id='body_C046_Col00'] div div[class='sfContentBlock sf-Long-text']");
         this.ipfsNewsUp=page.locator("text=IPFS News & Updates");
         this.ViewAllTab=page.locator("a[href='/news']").first();
-        this.
+
 
 
 
