@@ -43,5 +43,5 @@ class AssociatedUserPage {
     }
 
 }
-
+module.exports={AssociatedUserPage};
 

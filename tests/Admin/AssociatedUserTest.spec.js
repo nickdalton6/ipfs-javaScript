@@ -1,5 +1,6 @@
 const { test, expect } = require('@playwright/test');
-const {AssociatedUserPage}=require('Pages/Admin/AssociatedUserPage');
+const {AssociatedUserPage} = require("../../Pages/Admin/AssociatedUserPage");
+
 
 
 test('@ipfs @regression @admin Verify page contents', async ({ browser }) => {
