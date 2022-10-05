@@ -1,0 +1,3 @@
+protractor conf.js --params.baseurl="https://stage.ipfs.com" --params.emaildist="wa7335@ipfs.com" --suite=webSmoke
+
+'browserName': 'chrome', sharedTestFiles: true,maxIstances:5
