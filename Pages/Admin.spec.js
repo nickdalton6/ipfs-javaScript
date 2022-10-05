@@ -134,6 +134,21 @@ class Admin{
         this.IPFSFaLeInfSpCABrok=page.locator("#PrivacyLink");
         this.FaceLink=page.locator("img[src='/Images/Buttons/facebook_button.png']");
         this.TwitLink=page.locator("img[src='/Images/Buttons/twitter_button.png']");
+//Admin- Integration Tab
+        this.intTab=page.locator("a[title='Integration']");
+        this.helForUsManInt=page.locator("text=Help for User Manager");
+        this.helForUsPopTxt=page.locator(".walkme-custom-balloon-title");
+        this.helForUsPpUpAdUs=page.locator("helForUsPopTxt");
+        this.helForUsPpUpEdUs=page.locator("text=Edit a User");
+        this.helForUsPpUpRsPsWRE=page.locator("text=Reset Password with Registration Email");
+        this.addBtnUsmTab=page.locator("button[id='UserAddButton']");
+        this.delBtnUsmTab=page.locator("button[id='UserDeleteButton']");
+        this.AgnCoDiscUsmTab=page.locator("#AgentCompensationDisclosureLink");
+        this.WebSitPrTeConBrok=page.locator("#TermsLink");
+        this.IPFSFaLeInfSpCABrok=page.locator("#PrivacyLink");
+        this.FaceLink=page.locator("img[src='/Images/Buttons/facebook_button.png']");
+        this.TwitLink=page.locator("img[src='/Images/Buttons/twitter_button.png']");
+
 
 
 
