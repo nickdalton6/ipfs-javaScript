@@ -33,7 +33,7 @@ We will send you an email confirmation when a PFA is signed by the Insured (afte
 
 =================
 
-Home > Admin > Insured Branding
+Home > AdminPage > Insured Branding
 Insured Branding
 Upload
 No file chosen
@@ -50,7 +50,7 @@ Tel: (555) 555-5511
 Sample of what insureds see.
 Agent Compensation Disclosure | Website Privacy Policy/Terms and Conditions | IPFS Fair Lending, Information Security, and Privacy Compliance Acknowledgement
 ===========================================
-Home > Admin > Integration
+Home > AdminPage > Integration
 Integration Maintenance
 Coverage
 Company

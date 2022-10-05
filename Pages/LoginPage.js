@@ -7,7 +7,7 @@ class LoginPage{
         this.username=page.locator("#txtUserID");
         this.password=page.locator("#txtPassword");
         this.loginBtn=page.locator("#loginSubmit");
-        this.firstNavItem=page.locator("a[title='Admin']")
+        this.firstNavItem=page.locator("a[title='AdminPage']")
 
     }
 

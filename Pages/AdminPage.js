@@ -1,9 +1,9 @@
-class Admin{
+class AdminPage {
 
     constructor(page) {
 
         this.page=page
-        this.Admin=page.locator("a[title='Admin']");
+        this.AdminPage=page.locator("a[title='AdminPage']");
         this.AssocUser=page.locator("a[title='Associated Users']");
         this.AssocUserPage=page.locator("h2[xpath='1']");
         this.AssocUserPageTable=page.locator(".col-sm-6");
@@ -134,7 +134,7 @@ class Admin{
         this.IPFSFaLeInfSpCABrok=page.locator("#PrivacyLink");
         this.FaceLink=page.locator("img[src='/Images/Buttons/facebook_button.png']");
         this.TwitLink=page.locator("img[src='/Images/Buttons/twitter_button.png']");
-//Admin- Integration Tab
+//AdminPage- Integration Tab
         this.intTab=page.locator("a[title='Integration']");
         this.helForUsManInt=page.locator("text=Help for User Manager");
         this.helForUsPopTxt=page.locator(".walkme-custom-balloon-title");
