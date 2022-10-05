@@ -12,12 +12,12 @@ test('@ipfs @regression @admin Verify page contents', async ({ browser }) => {
     const  page=await context.newPage();
 
      aup= new AssociatedUserPage(page);
-     await expect(aup.assocUserText()).toHaveText("Associated Users")
-    await  expect(aup.firstColHeaderVal()).toHaveText("Login");
-    await  expect(aup.secondColHeaderVal()).toHaveText("Name");
-    await  expect(aup.thirdColHeaderVal()).toHaveText("Email");
-    await  expect(aup.addBtn()).toHaveText("Add");
-    await  expect(aup.deletBtn()).toHaveText("Delete");
+     await expect(aup.getMainTextFrmPage()).toHaveText("Associated Users")
+    await  expect(aup.getFirstColHeader()).toHaveText("Login");
+    await  expect(aup.getSecondHeaderLoc()).toHaveText("Name");
+    await  expect(aup.getThirdHeaderLoc()).toHaveText("Email");
+    await  expect(aup.getAddBtnLoc()).toHaveText("Add");
+    await  expect(aup.getDeleteBtnLoc()).toHaveText("Delete");
 
 
 });
