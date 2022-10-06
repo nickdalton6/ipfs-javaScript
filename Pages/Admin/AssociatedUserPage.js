@@ -10,6 +10,7 @@ class AssociatedUserPage {
         this.thirdColHeaderVal=page.locator("//div[normalize-space()='Email']");
         this.addBtn=page.locator("#UserAddButton").last();
         this.deletBtn=page.locator("button[id='UserDeleteButton']");
+        this.assocTable=page.locator(".col-sm-6");
     }
 
     async openAdminPage(){

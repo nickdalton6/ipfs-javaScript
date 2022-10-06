@@ -2,7 +2,23 @@ class AdminPage{
 
     constructor() {
 
-        this.AssociatedUserPageLink=page.locator("a[title='AssociatedUserPage']");
+        //Associated User Drail down locators
+        this.associatedUserPageLink=page.locator("a[title='AssociatedUserPage']");
+        this.webAccCode=page.locator("#SecurityCode");
+        this.addBtn=page.locator("#UserAddButton");
+        this.delBtn=page.locator("#UserDeleteButton");
+        this.delBtn=page.locator("#UserDeleteButton");
+        this.psCode=page.locator("#ZIPCode");
+        this.psCode=page.locator("#EmailAddress");
+        this.psCode=page.locator("#EmailAddress");
+        this.adminCkBox=page.locator("//input[@id='role_7fa7405a-ce56-4fb8-b129-3dd3726f31c8']");
+        this.qutngCkBox=page.locator("//input[@id='role_302643c6-fee1-436e-8308-addbae0f6d63']");
+
+
+
+
+        this.
+
 
         //Entity Setting Tab
         this.EntitySetTab=page.locator("a[title='Entity Settings']");
@@ -12,8 +28,10 @@ class AdminPage{
         this.weleMailToInsChkBox=page.locator("//input[@type='checkbox']");
         this.saveBtn=page.locator("button#SaveButton");
         this.cancelBtn=page.locator("button#CancelButton");
+
         this.FaceLink=page.locator("img[src='/Images/Buttons/facebook_button.png']");
         this.TwitLink=page.locator("img[src='/Images/Buttons/twitter_button.png']");
+
         //Insured Branding Tab
         this.InsBranTab=page.locator("a[title='Insured Branding']");
         this.AgeComDisLink=page.locator("#AgentCompensationDisclosureLink");
