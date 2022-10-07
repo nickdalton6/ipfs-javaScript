@@ -11,7 +11,7 @@ test('@ipfs @regression @admin Verify page contents', async ({page}) => {
     await loginPage.login("pfsit", "pfs1ttest");
     await page.waitForLoadState('networkidle');
     await aup.openAdminPage();
-    await page.pause();
+
     await expect(aup.assocUserText).toHaveText("Associated Users")
     await expect(aup.firstColHeaderVal).toHaveText("Login");
     await expect(aup.secondColHeaderVal).toHaveText("Name");
