@@ -17,31 +17,6 @@ class AssociatedUserPage {
        await this.page.goto("https://app-test.ipfs.com/Core/Admin/AssociatedUser")
     }
 
-    getMainTextFrmPage(){
-
-        return this.assocUserText
-
-    }
-
-    getFirstColHeader(){
-        return this.firstColHeaderVal
-    }
-    getSecondHeaderLoc(){
-        return this.secondColHeaderVal
-    }
-
-    getThirdHeaderLoc()
-    {
-        return this.thirdColHeaderVal
-    }
-
-    getAddBtnLoc(){
-        return this.addBtn;
-    }
-
-    getDeleteBtnLoc(){
-        return this.deletBtn;
-    }
 
 }
 module.exports={AssociatedUserPage};

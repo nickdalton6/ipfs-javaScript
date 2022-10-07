@@ -50,8 +50,8 @@ Tel: (555) 555-5511
 Sample of what insureds see.
 Agent Compensation Disclosure | Website Privacy Policy/Terms and Conditions | IPFS Fair Lending, Information Security, and Privacy Compliance Acknowledgement
 ===========================================
-Home > AssociatedUserPage > Integration
-Integration Maintenance
+Home > AssociatedUserPage > IntegrationPage
+IntegrationPage Maintenance
 Coverage
 Company
 General Agent
