@@ -16,21 +16,6 @@ class AdminPage{
 
 
 
-
-
-
-        //Entity Setting Tab
-        this.EntitySetTab=page.locator("a[title='Entity Settings']");
-        this.PFFeeVerb=page.locator("select.col-xs-12.col-md-6").first();
-        this.PFFeeDiscNonCA=page.locator("select.col-xs-12.col-md-6").nth(1);
-        this.PFFeeDiscCA=page.locator("select.col-xs-12.col-md-6").nth(2);
-        this.weleMailToInsChkBox=page.locator("//input[@type='checkbox']");
-        this.saveBtn=page.locator("button#SaveButton");
-        this.cancelBtn=page.locator("button#CancelButton");
-
-        this.FaceLink=page.locator("img[src='/Images/Buttons/facebook_button.png']");
-        this.TwitLink=page.locator("img[src='/Images/Buttons/twitter_button.png']");
-
         //Insured Branding Tab
         this.InsBranTab=page.locator("a[title='Insured Branding']");
         this.AgeComDisLink=page.locator("#AgentCompensationDisclosureLink");
@@ -42,27 +27,8 @@ class AdminPage{
         this.PrevFrame=page.locator("img#branding-image");
         this.FaceLink=page.locator("img[src='/Images/Buttons/facebook_button.png']");
         this.TwitLink=page.locator("img[src='/Images/Buttons/twitter_button.png']");
-        //Integration Tab
-        this.IntegTab=page.locator("a[title='Integration']");
-        this.InteMainTit=page.locator("input#hdnSelectedTabIndex");
-        this.CovTab=page.locator("#CoverageTabPanel");
-        this.namRadBtn=page.locator("#filterOnNameCoverage");
-        this.namRadBtn=page.locator("#filterOnNameCoverage");
-        this.ipfsValRadBtn=page.locator("#filterOnValueCoverage");
-        this.strtWitRadBtn=page.locator("#startsWithRadioCoverage");
-        this.CntnsRadBtn=page.locator("#containsRadioCoverage");
-        this.itmPrPgDd=page.locator("#selectCoveragePageSize");
-        this.totRec=page.locator("button[onclick=\"stringTextGeneralAgent.value = ''\"]");
-        this.entTxtInBox=page.locator("#stringTextCoverage");//This locator send text for contains radio btn to search
-        this.xSearchIcon=page.locator("button[onclick=\"stringTextCoverage.value = ''\"]"); //This locator clean the search box enter in line 43 (B)
-        this.srchBtn=page.locator("#searchButtonCoverage");
-        this.srhResTbl=page.locator(".bootstrap-table");
-        this.srhResTblChBox=page.locator("input[name='btSelectAll']");
-        this.srhResTblName=page.locator("div[class='th-inner sortable both']").nth(0);
-        this.srhResTblIpfsVal=page.locator("div[class='th-inner sortable both']").nth(1);
-        this.srhResTblCovTyp=page.locator("div[class='th-inner sortable both']").nth(2);
-        this.FaceLink=page.locator("img[src='/Images/Buttons/facebook_button.png']");
-        this.TwitLink=page.locator("img[src='/Images/Buttons/twitter_button.png']");
+        //IntegrationPage Tab
+
         //Edit Cover mapping edit btn waiting to be located.
         //Changing pages for table awaiting for a locator selections
         this.addBtn=page.locator("#CoverageAddButton");
@@ -89,7 +55,7 @@ class AdminPage{
         this.AgnCoDisc=page.locator("#AgentCompensationDisclosureLink");
         this.WebSitPrTeCon=page.locator("#TermsLink");
         this.IPFSFaLeInfSpCA=page.locator("#PrivacyLink");
-        //Integration Maintenance-General Agent Tab
+        //IntegrationPage Maintenance-General Agent Tab
         this.generalAgentTab=page.locator("#GATabPanel");
         this.namRadBtnGA=page.locator("#filterOnNameGeneralAgent");
         this.unqID=page.locator("#filterOnUniqueIDGeneralAgent");
@@ -106,7 +72,7 @@ class AdminPage{
         this.IPFSFaLeInfSpCA=page.locator("#PrivacyLink");
         this.FaceLink=page.locator("img[src='/Images/Buttons/facebook_button.png']");
         this.TwitLink=page.locator("img[src='/Images/Buttons/twitter_button.png']");
-        //Integration Maintenance-Broker Agent Tab
+        //IntegrationPage Maintenance-Broker Agent Tab
         this.brokerTab=page.locator("#BrokerTabPanel");
         this.namRadBtn=page.locator("#filterOnNameBroker");
         this.unIDBrok=page.locator("#filterOnUniqueIDBroker");
@@ -124,7 +90,7 @@ class AdminPage{
         this.FaceLink=page.locator("img[src='/Images/Buttons/facebook_button.png']");
         this.TwitLink=page.locator("img[src='/Images/Buttons/twitter_button.png']");
 ///Edit Cover mapping edit btn waiting to be located.
-        //Integration Maintenance-Insured Tab
+        //IntegrationPage Maintenance-Insured Tab
         this.insuredTab=page.locator("#InsuredTabPanel");
         this.namRadBtnIns=page.locator("#filterOnNameInsured");
         this.unqIDIn=page.locator("#filterOnUniqueIDInsured");
@@ -143,8 +109,8 @@ class AdminPage{
         this.IPFSFaLeInfSpCABrok=page.locator("#PrivacyLink");
         this.FaceLink=page.locator("img[src='/Images/Buttons/facebook_button.png']");
         this.TwitLink=page.locator("img[src='/Images/Buttons/twitter_button.png']");
-//AssociatedUserPage- Integration Tab
-        this.intTab=page.locator("a[title='Integration']");
+//AssociatedUserPage- IntegrationPage Tab
+        this.intTab=page.locator("a[title='IntegrationPage']");
         this.helForUsManInt=page.locator("text=Help for User Manager");
         this.helForUsPopTxt=page.locator(".walkme-custom-balloon-title");
         this.helForUsPpUpAdUs=page.locator("helForUsPopTxt");
