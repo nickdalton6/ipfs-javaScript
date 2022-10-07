@@ -4,8 +4,9 @@ test('User logs in to Homepage', async ({ page }) => {
    
      const loginPage=new LoginPage(page);
 
-      await loginPage.login("pfsit","pfs1ttest");
+      await loginPage.login();
       await expect(loginPage.firstNavItem).toContainText("Admin");
+
     console.log(page);
 
 });

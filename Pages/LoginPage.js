@@ -1,4 +1,4 @@
-
+const {Constants}=require('../Pages/utils/Constants');
 
 class LoginPage{
 
@@ -7,7 +7,7 @@ class LoginPage{
         this.username=page.locator("#txtUserID");
         this.password=page.locator("#txtPassword");
         this.loginBtn=page.locator("#loginSubmit");
-        this.firstNavItem=page.locator("a[title='AssociatedUserPage']")
+        this.firstNavItem=page.locator("a[title='Admin']")
 
     }
 
@@ -15,11 +15,14 @@ class LoginPage{
         await this.page.goto("https://app-test.ipfs.com/login");
     }
 
-    async login(userName,password)
+    async login()
+
     {
+        const con=new Constants();
+
        await this.goToLoginPage();
-        await this.username.first().fill(userName)
-        await this.password.first().fill(password)
+        await this.username.first().fill(con.userName)
+        await this.password.first().fill(con.password)
         await this.loginBtn.first().click();
     }
 

@@ -3,16 +3,10 @@ class AdminPage{
     constructor() {
 
         //Associated User Drail down locators
-        this.associatedUserPageLink=page.locator("a[title='AssociatedUserPage']");
-        this.webAccCode=page.locator("#SecurityCode");
-        this.addBtn=page.locator("#UserAddButton");
-        this.delBtn=page.locator("#UserDeleteButton");
-        this.delBtn=page.locator("#UserDeleteButton");
-        this.psCode=page.locator("#ZIPCode");
-        this.psCode=page.locator("#EmailAddress");
-        this.psCode=page.locator("#EmailAddress");
-        this.adminCkBox=page.locator("//input[@id='role_7fa7405a-ce56-4fb8-b129-3dd3726f31c8']");
-        this.qutngCkBox=page.locator("//input[@id='role_302643c6-fee1-436e-8308-addbae0f6d63']");
+        // this.associatedUserPageLink=page.locator("a[title='AssociatedUserPage']");
+
+
+
 
 
 

@@ -7,7 +7,7 @@ test('@ipfs @regression @admin Verify page contents', async ({page}) => {
 
     const ip=new IntegrationPage(page);
     const loginPage = new LoginPage(page);
-    await loginPage.login("pfsit", "pfs1ttest");
+    await loginPage.login();
     await ip.openIntegrationPage()
     expect()
 

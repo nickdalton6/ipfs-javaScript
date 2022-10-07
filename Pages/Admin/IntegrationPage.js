@@ -25,6 +25,10 @@ class IntegrationPage {
         this.FaceLink=page.locator("img[src='/Images/Buttons/facebook_button.png']");
         this.TwitLink=page.locator("img[src='/Images/Buttons/twitter_button.png']");
     //Waiting for pagination issue to be resloved and edit coverage mapping pop is pending too.
+        this.pageNextFirst=page.locator("//li[@class='page-item page-next']").first();
+        this.pageNextSecond=page.locator("//li[@class='page-item page-next']").last();
+        this.pagePvsFirst=page.locator("//li[@class='page-item page-pre']").first();
+        this.pagePvsSecond=page.locator("//li[@class='page-item page-pre']").last();
 
 
     }
