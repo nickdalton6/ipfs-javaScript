@@ -1,4 +1,4 @@
-const {data}=require('../Data/Config.json')
+const {JasonReader}=require('../Data/Config.json')
 
 class LoginPage{
 
@@ -8,12 +8,12 @@ class LoginPage{
         this.password=page.locator("#txtPassword");
         this.loginBtn=page.locator("#loginSubmit");
         this.firstNavItem=page.locator("a[title='Admin']")
-
+this.data=new JasonReader();
     }
 
    async goToLoginPage(){
 
-        await this.page.goto(data.URL);
+        await this.page.goto(this.data.URL);
     }
 
     async login()
@@ -22,8 +22,8 @@ class LoginPage{
 
 
        await this.goToLoginPage();
-        await this.username.first().fill(data.username)
-        await this.password.first().fill(data.password)
+        await this.username.first().fill(this.data.username)
+        await this.password.first().fill(this.data.password)
         await this.loginBtn.first().click();
     }
 
