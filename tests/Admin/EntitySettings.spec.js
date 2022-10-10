@@ -18,15 +18,15 @@ test.only("entity setting page test case",async (page)=>{
 await entitySettingsPage.PFFeeVerb.click();
 await entitySettingsPage.PFFeeVerb.selectOption("6");
 await entitySettingsPage.PFFeeDiscNonCA.click();
-await entitySettingsPage.PFFeeDiscNonCA.selectOption("Letter");
+await entitySettingsPage.PFFeeDiscNonCA.selectOption("2");
 await entitySettingsPage.PFFeeDiscCA.click();
-await entitySettingsPage.PFFeeDiscCA.selectOption("Letter");
+await entitySettingsPage.PFFeeDiscCA.selectOption("3");
 await entitySettingsPage.weleMailToInsChkBox.click();
 await entitySettingsPage.saveBtn.click();
-await entitySettingsPage.cancelBtn.click();
-await entitySettingsPage.FaceLink.click();
-const [newWindow]=await entitySettingsPage.TwitLink.click();
-console.log(newWindow.url());
+await entitySettingsPage.NoPpBtn.click();
+await entitySettingsPage.FaceLinkEnt.click();
+
+
 
 
 
