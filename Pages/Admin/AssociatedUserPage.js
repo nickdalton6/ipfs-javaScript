@@ -35,7 +35,7 @@ class AssociatedUserPage {
         this.adminCkBox=page.locator("//input[@id='role_7fa7405a-ce56-4fb8-b129-3dd3726f31c8']");
         this.qutngCkBox=page.locator("//input[@id='role_302643c6-fee1-436e-8308-addbae0f6d63']");
         this.vOnQotsOn=page.locator("#role_55cf8419-672a-435f-ba8f-a7a75b11ffb9");
-        this.vOnRenQsOn=page.locator("#role_9518c3d0-3b5c-4fc1-96d1-1ad146c22d55");
+        this.rnQutRad=page.locator("#role_9518c3d0-3b5c-4fc1-96d1-1ad146c22d55");
         this.AlwEApr=page.locator("#role_6f665e21-972e-4b93-a01f-bd2d86d202e5");
         this.hDBAcnt=page.locator("#role_3a425f8a-0f14-42ab-ac13-3a333a919f6b");
         this.rFeA=page.locator("#role_a9d4345b-2324-480e-8b2a-806d955f719d");
@@ -45,7 +45,7 @@ class AssociatedUserPage {
         this.TwitLink=page.locator("img[src='/Images/Buttons/twitter_button.png']");
     }
 
-    async openAdminPage(){
+    async openAssociatedUserPage(){
        await this.page.goto("https://app-test.ipfs.com/Core/Admin/AssociatedUser")
     }
 

@@ -16,7 +16,9 @@ class EntitySettingsPage {
         this.TwitLink=page.locator("img[src='/Images/Buttons/twitter_button.png']");
 
     }
+    async openEntitySettingPage(){
+        await this.page.goto("https://app-test.ipfs.com/Core/Admin/AgencySettings");
+    }
 
 
-
-}
+}module.export={EntitySettingsPage};
