@@ -2,10 +2,11 @@ const {test, expect} = require('@playwright/test');
 const {EntitySettingsPage} = require("../../Pages/Admin/EntitySettingsPage");
 const {LoginPage} = require("../../Pages/LoginPage");
 
+let entitySettingsPage = undefined;
 test.beforeAll(async({browser})=>
 {
     let page = await browser.newPage();
-  const  entitySettingsPage = await new EntitySettingsPage(page);
+    entitySettingsPage = await new EntitySettingsPage(page);
     const loginPage =await  new LoginPage(page);
     await loginPage.login();
     await page.waitForLoadState('networkidle');
@@ -15,7 +16,7 @@ test.beforeAll(async({browser})=>
 
 test.only("entity setting page test case",async (page)=>{
 await entitySettingsPage.PFFeeVerb.click();
-await entitySettingsPage.PFFeeVerb.selectOption("Reimbursement");
+await entitySettingsPage.PFFeeVerb.selectOption("6");
 await entitySettingsPage.PFFeeDiscNonCA.click();
 await entitySettingsPage.PFFeeDiscNonCA.selectOption("Letter");
 await entitySettingsPage.PFFeeDiscCA.click();
