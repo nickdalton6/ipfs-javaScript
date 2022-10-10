@@ -1,4 +1,4 @@
-const {Constants}=require('../Pages/utils/Constants');
+const {data}=require('../Data/Config.json')
 
 class LoginPage{
 
@@ -12,17 +12,18 @@ class LoginPage{
     }
 
    async goToLoginPage(){
-        await this.page.goto("https://app-test.ipfs.com/login");
+
+        await this.page.goto(data.URL);
     }
 
     async login()
 
     {
-        const con=new Constants();
+
 
        await this.goToLoginPage();
-        await this.username.first().fill(con.userName)
-        await this.password.first().fill(con.password)
+        await this.username.first().fill(data.username)
+        await this.password.first().fill(data.password)
         await this.loginBtn.first().click();
     }
 
