@@ -1,6 +1,6 @@
 const { test, expect } = require('@playwright/test');
 const {LoginPage}=require('../Pages/LoginPage.js');
-test('User logs in to Homepage', async ({ page }) => {
+test(`@TC5 @admin @ipfsSmoke @smoke  @ipfsRegression  @allWebAppsRegression @regression User logs in to Homepage`, async ({ page }) => {
    
      const loginPage=new LoginPage(page);
 

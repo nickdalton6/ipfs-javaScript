@@ -3,11 +3,21 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "scripts": {
+    "reg":" npx playwright test --grep \"@regression\" --reporter=line,allure-playwright ",
+    "smoke":" npx playwright test --grep \"@smoke\" --reporter=line,allure-playwright",
+    "admin":" npx playwright test --grep \"@admin\" --reporter=line,allure-playwright",
+    "report-gen": "allure generate ./allure-results --clean",
+    "report-open": "allure open ./allure-report"
+  },
   "devDependencies": {
-    "@playwright/test": "^1.26.1"
+    "@playwright/test": "^1.27.0",
+    "allure-playwright": "^2.0.0-beta.19"
+  },
+  "dependencies": {
+    "playwright": "^1.26.1"
   }
 }

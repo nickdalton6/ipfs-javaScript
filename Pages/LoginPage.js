@@ -4,7 +4,7 @@ class LoginPage{
 
     constructor(page) {
         this.page=page;
-        this.username=page.locator("#txtUserID");
+        this.userName=page.locator("#txtUserID");
         this.password=page.locator("#txtPassword");
         this.loginBtn=page.locator("#loginSubmit");
         this.firstNavItem=page.locator("a[title='Admin']")
@@ -22,7 +22,7 @@ class LoginPage{
 
 
        await this.goToLoginPage();
-        await this.username.first().fill(data.username)
+        await this.userName.first().fill(data.userName)
         await this.password.first().fill(data.password)
         await this.loginBtn.first().click();
     }

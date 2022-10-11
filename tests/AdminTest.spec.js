@@ -2,7 +2,7 @@ const { test, expect } = require('@playwright/test');
 const {AdminPage}=require('../Pages/Admin/AssociatedUserPage');
 
 
-test('Verifying HomePage MainTabs Displayed', async ({ browser }) => {
+test('@TC4 @admin @ipfsSmoke @smoke  @ipfsRegression  @allWebAppsRegression @regression Verifying HomePage MainTabs Displayed', async ({ browser }) => {
 
     const context=await browser.newContext({
         storageState:"auth.jason"
