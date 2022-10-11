@@ -14,7 +14,7 @@ test.beforeAll(async({browser})=>
 
 });
 
-test.only("entity setting page test case",async (page)=>{
+test("@TC3 @admin @ipfsSmoke @smoke  @ipfsRegression  @allWebAppsRegression @regression entity setting page test case",async (page)=>{
 await entitySettingsPage.PFFeeVerb.click();
 await entitySettingsPage.PFFeeVerb.selectOption("6");
 await entitySettingsPage.PFFeeDiscNonCA.click();

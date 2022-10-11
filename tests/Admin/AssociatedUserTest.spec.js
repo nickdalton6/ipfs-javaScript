@@ -14,7 +14,7 @@ test.beforeAll(async({browser})=>
     await aup.openAssociatedUserPage();
     
 });
-test.only('@ipfs @regression @admin @AUT1 Verify page contents', async ({page}) => {
+test('@TC1 @admin @ipfsSmoke @smoke  @ipfsRegression  @allWebAppsRegression @regression   Verify page contents', async ({page}) => {
 
     await expect(aup.assocUserText).toHaveText("Associated Users")
     await expect(aup.firstColHeaderVal).toHaveText("Login");
@@ -30,7 +30,7 @@ test.only('@ipfs @regression @admin @AUT1 Verify page contents', async ({page}) 
 
 });
 
-test('@ipfs @regression @admin AUT2 Verify page contents', async ({page}) => {
+test('@TC2 @admin @ipfsSmoke @smoke  @ipfsRegression  @allWebAppsRegression @regression Verify page contents', async ({page}) => {
 
 
 
@@ -41,7 +41,6 @@ test('@ipfs @regression @admin AUT2 Verify page contents', async ({page}) => {
     await aup.psCode.type("22192");
     await aup.emlId.type("john.mik@yahoo.com");
     await aup.qutngCkBox.click();
-    await page.pause();
     await aup.rnQutRad.click();
 
 
