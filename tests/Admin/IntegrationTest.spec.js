@@ -14,11 +14,13 @@ test.beforeAll(async({browser})=>
 
 });
 
-test('@TC1 @admin @ipfsSmoke @smoke  @ipfsRegression  @allWebAppsRegression @regression Verify page contents', async ({page}) => {
 
-   /* const ip=new IntegrationPage(page);
-    const loginPage = new LoginPage(page);
-    await loginPage.login();
-    await ip.openIntegrationPage()*/
+    test.only('@TC1 @admin @ipfsSmoke @smoke  @ipfsRegression  @allWebAppsRegression @regression verifying the tabel data',async ({page})=>{
+        const tableRow=integrationPage.rstTableCov;
+ const rowCount=   await tableRow.count();
+ console.log(rowCount);
+ for(let i=0;i<rowCount;i++){
+     if(tableRow.)
+ }
 
 });
