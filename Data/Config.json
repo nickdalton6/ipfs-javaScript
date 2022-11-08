@@ -1,6 +1,4 @@
 {
-  "userName": "pfsit",
-  "password": "pfs1ttest",
-  "URL": "https://app-test.ipfs.com/login",
-  "entitySettingPageURL":"https://app-test.ipfs.com/Core/Admin/AgencySettings"
+  "userName": "username",
+  "password": "password",
 }
